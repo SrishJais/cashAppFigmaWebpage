@@ -34,7 +34,7 @@ const Navbar = ({ themeProps }) => {
     "/codeblog",
   ];
   return (
-    <nav className="navbar navbar-expand-lg navbar-light px-5">
+    <nav className="navbar navbar-expand-lg navbar-light">
       {/* navbar light is for visibility of collapse icon */}
 
       {/* brand logo in Link comp instead of <a> tag*/}
