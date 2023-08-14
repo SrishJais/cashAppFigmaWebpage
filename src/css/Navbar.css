@@ -1,0 +1,10 @@
+.nav-item {
+  color: var(--textColor);
+  font-weight: bold;
+}
+.nav-item:hover {
+  color: var(--textColor);
+}
+.navbar-toggler-icon {
+  background-color: var(--bgHamburgerMenuIcon);
+}

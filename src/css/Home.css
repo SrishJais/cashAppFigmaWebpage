@@ -1,0 +1,108 @@
+.heroSectionText {
+  color: var(--textColor);
+}
+#cashText {
+  position: relative;
+  z-index: 1;
+}
+#appText {
+  position: relative;
+  z-index: 3;
+}
+#heroSection {
+  height: 77vh;
+  position: relative;
+}
+#phoneImg {
+  position: absolute;
+  z-index: 2;
+  bottom: 19px;
+}
+#headingContainer {
+  position: absolute;
+}
+
+#cubeImg {
+  position: absolute;
+  top: -25px;
+  left: 220px;
+}
+#cubesImg {
+  position: absolute;
+  bottom: -30px;
+  left: 137px;
+}
+#stairsImg {
+  position: absolute;
+  top: -15px;
+  right: 183px;
+}
+#pillarImg {
+  position: absolute;
+  bottom: -94px;
+  right: 320px;
+}
+/*------------------------------------------------------------------ for phone----------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  #phoneImg {
+    z-index: 1;
+    bottom: 134px;
+    left: 73px;
+  }
+  #headingContainer {
+    top: 163px;
+  }
+  #cubeImg {
+    top: 22px;
+    left: 49px;
+  }
+  #cubesImg {
+    bottom: 135px;
+    left: 11px;
+  }
+  #stairsImg {
+    top: -15px;
+    right: 6px;
+  }
+  #pillarImg {
+    bottom: 79px;
+    right: 4px;
+  }
+}
+/*------------------------------------------------------------------ ipad air----------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  #headingContainer {
+    top: 362px;
+  }
+  #phoneImg {
+    z-index: 2;
+    left: 226px;
+    bottom: 198px;
+  }
+  #cubeImg {
+    top: 114px;
+    left: 118px;
+  }
+  #pillarImg {
+    bottom: 83px;
+    right: 114px;
+  }
+  #cubesImg {
+    bottom: 85px;
+    left: 79px;
+  }
+  #stairsImg {
+    top: 24px;
+    right: 104px;
+  }
+}
+/*------------------------------------------------------------------ ipad mini----------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  #phoneImg {
+    z-index: 2;
+    left: 226px;
+    bottom: 128px;
+  }
+}

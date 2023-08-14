@@ -1,0 +1,24 @@
+.footerBtnText {
+  color: white;
+}
+#footerParagraph {
+  font-size: 10px;
+  line-height: 13px;
+  color: var(--textColor);
+  font-family: "Mulish";
+}
+/* ------------------------------------------------------------------for phone ----------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  footer {
+    position: relative;
+    bottom: 133px;
+  }
+}
+/*------------------------------------------------------------------ ipad mini----------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  footer {
+    position: relative;
+    bottom: 50px;
+  }
+}
