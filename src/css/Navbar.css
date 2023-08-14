@@ -8,3 +8,15 @@
 .navbar-toggler-icon {
   background-color: var(--bgHamburgerMenuIcon);
 }
+.navbar{
+    padding-left:40px;
+    padding-right:40px;
+  }
+/* phone */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-left:32px;
+        padding-right:40px;
+      }
+
+}
