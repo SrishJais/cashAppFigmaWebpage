@@ -42,8 +42,9 @@
   bottom: -94px;
   right: 320px;
 }
+
 /*------------------------------------------------------------------ for phone----------------------------------------------------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 667px) {
   #phoneImg {
     z-index: 1;
     bottom: 134px;
@@ -97,9 +98,14 @@
     right: 104px;
   }
 }
+@media screen and (max-width: 375px) {
+    #headingContainer {
+        top: 230px;
+    }
+}
 /*------------------------------------------------------------------ ipad mini----------------------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 800px) {
+@media screen and (min-width: 768px)  and (max-width: 815px) {
   #phoneImg {
     z-index: 2;
     left: 226px;
